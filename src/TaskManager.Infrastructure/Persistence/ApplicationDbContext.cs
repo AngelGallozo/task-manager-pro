@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using TaskManager.Domain.Entities;
 
 namespace TaskManager.Infrastructure.Persistence;
 
@@ -8,4 +9,6 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
+
+    public DbSet<User> Users => Set<User>();
 }
