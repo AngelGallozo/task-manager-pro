@@ -25,11 +25,13 @@ This project simulates a real-world enterprise development workflow including:
 
 The backend follows Clean Architecture principles:
 
+```
 src/
 ├── TaskManager.Api
 ├── TaskManager.Application
 ├── TaskManager.Domain
 ├── TaskManager.Infrastructure
+```
 
 ## 📌 Development Process
 
